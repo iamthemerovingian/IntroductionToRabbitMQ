@@ -12,7 +12,7 @@ namespace RabbitMQClient1
         private const string HostName = "localhost";
         private const string UserName = "guest";
         private const string Password = "guest";
-        private const string QueueName = "Module1.Sample3";
+        private const string QueueName = "Module1.Sample4";
         private const string ExchangeName = "";
 
         static void Main(string[] args)
@@ -31,7 +31,7 @@ namespace RabbitMQClient1
 
             //Create message properties..
             var properties = model.CreateBasicProperties();
-            properties.Persistent = false;
+            properties.Persistent = true;
 
             //Create the message....
             byte[] message = Encoding.Default.GetBytes("Hello World");

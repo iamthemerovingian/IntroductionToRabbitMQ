@@ -54,6 +54,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="PersistanceScripts\SetupRabbitMQ.bat" />
+    <None Include="PersistanceScripts\SetupRabbitMQ.ps1" />
+    <None Include="PersistanceScripts\StartServer.bat" />
+    <None Include="PersistanceScripts\StopServer.bat" />
     <None Include="SetupRabbitMQ.bat" />
     <None Include="SetupRabbitMQ.ps1" />
   </ItemGroup>
