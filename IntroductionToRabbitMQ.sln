@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{2552
 		Scripts\SetupRabbitMQ.ps1 = Scripts\SetupRabbitMQ.ps1
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQClient1", "RabbitMQClient1\RabbitMQClient1.csproj", "{CE8BFDF2-9889-403D-8277-1BB51956F256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8BFDF2-9889-403D-8277-1BB51956F256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8BFDF2-9889-403D-8277-1BB51956F256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8BFDF2-9889-403D-8277-1BB51956F256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8BFDF2-9889-403D-8277-1BB51956F256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
