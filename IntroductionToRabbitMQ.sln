@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneWayMessaging", "OneWayMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{E44EFFED-BBD5-44A7-933F-86DAA647BD86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{5F509BE6-FF14-4070-904D-2EE12092E98D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,12 +51,17 @@ Global
 		{E44EFFED-BBD5-44A7-933F-86DAA647BD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E44EFFED-BBD5-44A7-933F-86DAA647BD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E44EFFED-BBD5-44A7-933F-86DAA647BD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F509BE6-FF14-4070-904D-2EE12092E98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F509BE6-FF14-4070-904D-2EE12092E98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F509BE6-FF14-4070-904D-2EE12092E98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F509BE6-FF14-4070-904D-2EE12092E98D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E44EFFED-BBD5-44A7-933F-86DAA647BD86} = {913845B4-586B-4603-939E-3813C8A09FF9}
+		{5F509BE6-FF14-4070-904D-2EE12092E98D} = {913845B4-586B-4603-939E-3813C8A09FF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74BEEC1A-9131-4996-B9B9-BAE16BC5AC9D}
