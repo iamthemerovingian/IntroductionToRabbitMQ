@@ -5,6 +5,22 @@ VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToRabbitMQ", "IntroductionToRabbitMQ\IntroductionToRabbitMQ.csproj", "{B736D194-1198-4E62-8FFA-A7AFDCF380EF}"
 EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "RabbitMQSetup", "RabbitMQSetup\RabbitMQSetup.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQSetupScripts", "RabbitMQSetupScripts", "{F03C9FAA-4239-49CB-82C9-6B17BBE3552C}"
+	ProjectSection(SolutionItems) = preProject
+		packages\RabbitMQ.Client.5.0.1\lib\net451\RabbitMQ.Client.dll = packages\RabbitMQ.Client.5.0.1\lib\net451\RabbitMQ.Client.dll
+		..\..\..\Documents\RabbitMQ\rabbitmq-dotnet-developers\2-rabbitmq-dotnet-1-m2-exercise-files\m2\Sample.2.Powershell\SetupRabbitMQ.bat = ..\..\..\Documents\RabbitMQ\rabbitmq-dotnet-developers\2-rabbitmq-dotnet-1-m2-exercise-files\m2\Sample.2.Powershell\SetupRabbitMQ.bat
+		..\..\..\Documents\RabbitMQ\rabbitmq-dotnet-developers\2-rabbitmq-dotnet-1-m2-exercise-files\m2\Sample.2.Powershell\SetupRabbitMQ.ps1 = ..\..\..\Documents\RabbitMQ\rabbitmq-dotnet-developers\2-rabbitmq-dotnet-1-m2-exercise-files\m2\Sample.2.Powershell\SetupRabbitMQ.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{25523221-0592-4949-8277-CAB52D580D77}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\RabbitMQ.Client.dll = Scripts\RabbitMQ.Client.dll
+		Scripts\SetupRabbitMQ.bat = Scripts\SetupRabbitMQ.bat
+		Scripts\SetupRabbitMQ.ps1 = Scripts\SetupRabbitMQ.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +31,10 @@ Global
 		{B736D194-1198-4E62-8FFA-A7AFDCF380EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B736D194-1198-4E62-8FFA-A7AFDCF380EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B736D194-1198-4E62-8FFA-A7AFDCF380EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
