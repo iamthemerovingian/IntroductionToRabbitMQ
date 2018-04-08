@@ -31,7 +31,7 @@ namespace RabbitMQClient1
 
             //Create message properties..
             var properties = model.CreateBasicProperties();
-            properties.SetPersistent(false);
+            properties.Persistent = false;
 
             //Create the message....
             byte[] message = Encoding.Default.GetBytes("Hello World");
